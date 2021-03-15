@@ -1,7 +1,9 @@
 body {
-  @apply font-sans;
+  font-family: theme('fontFamily.sans');
 }
 
 .brand {
-  @apply text-3xl font-medium text-indigo-500;
+  color: theme('colors.indigo.500');
+  font-family: theme('fontSize.3xl');
+  font-weight: 500;
 }
